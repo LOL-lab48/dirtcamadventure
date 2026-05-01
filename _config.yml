@@ -1,0 +1,10 @@
+title: DirtCamAdventure
+description: Technical dirt bike gear and Hartley Vale trail guides.
+theme: minima
+# Replace 'yourusername' with your actual GitHub username
+url: "https://github.io"
+baseurl: "/dirtcamadventure" 
+
+# Technical settings
+kramdown:
+  input: GFM
