@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: page
 title: Kidcomms Giveaway
+permalink: /giveaway/
 ---
 # 🎁 Free Phone Giveaway
-
-I'm giving away my **Kidcomms GPS phone** to help another rider stay safe in the bush. 
+I am giving away my **Kidcomms GPS phone** for free to help another rider stay safe.
 
 ### How to Enter:
-1. Follow the DCA journey.
-2. Join the lottery on this page (Details coming soon!).
+- Details will be posted here soon!
+- Keep checking back for the DCA lottery launch.
 
-*Safety is the #1 priority at Hartley Vale.*
+[Back to Home]({{ site.baseurl }}/)
