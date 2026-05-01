@@ -1,10 +1,17 @@
-title: DirtCamAdventure
+title: DirtCamAdventure (DCA)
 description: Technical dirt bike gear and Hartley Vale trail guides.
-theme: minima
-# Replace 'yourusername' with your actual GitHub username
-url: "https://github.io"
-baseurl: "/dirtcamadventure" 
+remote_theme: pages-themes/minima@v0.2.0
 
-# Technical settings
-kramdown:
-  input: GFM
+# This tells GitHub to use the "robot helper" plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+# URL Settings
+url: "https://github.io"
+baseurl: "/dirtcamadventure"
+
+# Technical Header
+header_pages:
+  - index.md
+  - giveaway.md
