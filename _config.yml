@@ -1,17 +1,31 @@
+# Site Settings
 title: DirtCamAdventure (DCA)
 description: Technical dirt bike gear and Hartley Vale trail guides.
 remote_theme: pages-themes/minima@v0.2.0
 
-# This tells GitHub to use the "robot helper" plugins
-plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
-
 # URL Settings
+# Replace 'yourusername' with your actual GitHub username
 url: "https://github.io"
 baseurl: "/dirtcamadventure"
 
-# Technical Header
+# Technical Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Navigation Settings
+# This tells Jekyll to look at index.md and giveaway.md for the menu
 header_pages:
   - index.md
   - giveaway.md
+
+# Google Verification (Optional alternative to head.html)
+google_site_verification: PASTE_YOUR_CODE_HERE
+
+# Build Settings
+kramdown:
+  input: GFM
+sass:
+  style: :compressed
