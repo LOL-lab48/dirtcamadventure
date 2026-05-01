@@ -1,31 +1,19 @@
-# Site Settings
 title: DirtCamAdventure (DCA)
 description: Technical dirt bike gear and Hartley Vale trail guides.
-remote_theme: pages-themes/minima@v0.2.0
 
-# URL Settings
-# Replace 'yourusername' with your actual GitHub username
+# We switched from remote_theme to the built-in theme to fix the 404 error
+theme: minima
+
+# URL Settings (Crucial for GitHub)
 url: "https://github.io"
 baseurl: "/dirtcamadventure"
 
-# Technical Plugins
-plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-
-# Navigation Settings
-# This tells Jekyll to look at index.md and giveaway.md for the menu
+# This makes the "Home" and "Giveaway" links appear in the header automatically
 header_pages:
   - index.md
   - giveaway.md
 
-# Google Verification (Optional alternative to head.html)
-google_site_verification: PASTE_YOUR_CODE_HERE
-
-# Build Settings
-kramdown:
-  input: GFM
-sass:
-  style: :compressed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
