@@ -3,20 +3,17 @@
   {% include head.html %}
   <body>
     <header>
-      <h1>{{ site.title }}</h1>
       <nav>
+        <!-- This loop goes into your _data folder and grabs the list -->
         {% for item in site.data.navigation %}
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> |
+          <a href="{{ site.baseurl }}{{ item.url }}" style="margin-right: 15px;">{{ item.title }}</a>
         {% endfor %}
       </nav>
     </header>
-
+    <hr>
+    
     <main>
       {{ content }}
     </main>
-
-    <footer>
-      <p>&copy; {{ site.time | date: '%Y' }} DirtCamAdventure - Ride Safe at Hartley Vale.</p>
-    </footer>
   </body>
 </html>
