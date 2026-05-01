@@ -1,17 +1,33 @@
+# Site Settings
 title: DirtCamAdventure (DCA)
-description: Technical dirt bike gear and Hartley Vale trail guides.
+description: The ultimate guide to beginner dirt bike tech, maintenance, and riding.
 theme: minima
 
 # URL Settings
+# Replace 'yourusername' with your actual GitHub username
 url: "https://github.io"
 baseurl: "/dirtcamadventure"
 
-# This makes your menu at the top automatically
+# Navigation Menu
+# This automatically puts these buttons in the top-right header
 header_pages:
   - index.md
+  - maintenance.md
+  - tips.md
   - giveaway.md
 
+# Technical Plugins
+# These help your site show up on Google and work with Jekyll
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Google Search Console Verification
+# Paste your code from Google here if you want to verify via config
+google_site_verification: PASTE_YOUR_CODE_HERE
+
+# Markdown Settings
+kramdown:
+  input: GFM
+  hard_wrap: false
