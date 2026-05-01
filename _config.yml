@@ -1,14 +1,12 @@
 title: DirtCamAdventure (DCA)
 description: Technical dirt bike gear and Hartley Vale trail guides.
-
-# We switched from remote_theme to the built-in theme to fix the 404 error
 theme: minima
 
-# URL Settings (Crucial for GitHub)
+# URL Settings
 url: "https://github.io"
 baseurl: "/dirtcamadventure"
 
-# This makes the "Home" and "Giveaway" links appear in the header automatically
+# This makes your menu at the top automatically
 header_pages:
   - index.md
   - giveaway.md
