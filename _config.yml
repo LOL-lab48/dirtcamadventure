@@ -16,6 +16,7 @@ header_pages:
   - tips.md
   - shop.md
   - giveaway.md
+  - posts.md
 
 # Technical Plugins
 # These help your site show up on Google and work with Jekyll
