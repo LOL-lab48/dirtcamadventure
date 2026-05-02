@@ -21,3 +21,10 @@ To shift smoothly and protect the engine:
 
 ### 🦵 Squeeze the Tank
 When standing up or going over bumps, squeeze the petrol tank with your knees. This holds the bike steady and stops your arms from getting tired.
+### 💡 The Secret to Never Stalling
+
+Master the **Friction Zone**. 
+- Don't just "let go" of the clutch. 
+- Find the spot where the bike starts to "bite" and creep forward.
+- Hold it there for 3 seconds while giving it gas.
+- **Result:** Perfect, smooth takeoffs every time.
